@@ -18,6 +18,7 @@ install:
   - cmd: choco install cmake -y
   - ps: Install-Product node $env:nodejs_version x64
   - node --version
+  - SET PATH=%PATH%;%CMAKE%;
 
 build: off
 

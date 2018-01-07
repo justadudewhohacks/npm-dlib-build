@@ -16,9 +16,10 @@ clone_folder: c:\projects\dlib-build
 
 install:
   - cmd: choco install cmake -y
+  - cmd: choco upgrade cmake
   - ps: Install-Product node $env:nodejs_version x64
   - node --version
-  - SET PATH=%PATH%;%CMAKE%;
+  - SET PATH=%PATH%;C:\Program Files\CMake\bin;
 
 build: off
 

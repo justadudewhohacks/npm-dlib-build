@@ -12,7 +12,8 @@
   "homepage": "https://github.com/justadudewhohacks/npm-dlib-build#readme",
   "main": "index.js",
   "scripts": {
-    "install": "node ./install.js"
+    "install": "node ./install.js",
+    "test": "node ./test/check-build.js"
   },
   "keywords": [],
   "author": "justadudewhohacks",

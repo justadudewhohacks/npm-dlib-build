@@ -1,6 +1,6 @@
-const { dlibRoot, dlibLocalLib } = require('./constants')
+const { dlibSrc, dlibLocalLib } = require('./constants')
 
 module.exports = {
-  dlibIncludeDir: dlibRoot,
+  dlibIncludeDir: dlibSrc,
   dlibLib: dlibLocalLib
 }

@@ -12,6 +12,9 @@ before_install:
   - cd cmake-3.4.1/
   - ./configure
   - make
-  - cd..
+  - cd ..
   - cmake --version
+
+install:
+  - npm install
 

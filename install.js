@@ -21,6 +21,7 @@ function install() {
   return requireGit()
     .then(requireCmake)
     .then(setupDlib)
+    .catch(() => process.exit(1))
 }
 
 install()

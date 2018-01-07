@@ -1,0 +1,12 @@
+{
+  "name": "dlib-build",
+  "version": "0.0.0",
+  "description": "A simple script to auto build dlib",
+  "main": "index.js",
+  "scripts": {
+    "install": "node install.js"
+  },
+  "keywords": [],
+  "author": "justadudewhohacks",
+  "license": "ISC"
+}

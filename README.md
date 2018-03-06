@@ -8,6 +8,11 @@ A simple script to auto build dlib via npm.
 npm install dlib-build
 ```
 
+## With OpenBLAS on windows
+```
+set OPENBLAS_LIB_DIR=<path to libopenblas.lib>
+```
+
 ## Requirements
 - cmake
 
